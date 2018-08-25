@@ -1,0 +1,4 @@
+conan-linux13524 https://api.bintray.com/conan/linux13524/conan True
+conan-center https://conan.bintray.com True
+conan-community https://api.bintray.com/conan/conan-community/conan True
+conan-transit https://conan-transit.bintray.com True
