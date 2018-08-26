@@ -1,4 +1,4 @@
-standalone_toolchain=/mnt/Files/Dev-Tools/tmp/arm_21_toolchain
+standalone_toolchain=/tmp/android_21_arm_toolchain
 target_host=arm-linux-androideabi
 cc_compiler=clang
 cxx_compiler=clang++

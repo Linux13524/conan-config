@@ -1,4 +1,4 @@
-standalone_toolchain=/mnt/Files/Dev-Tools/tmp/arm64_21_toolchain
+standalone_toolchain=/tmp/android_21_arm64_toolchain
 target_host=aarch64-linux-android
 cc_compiler=clang
 cxx_compiler=clang++
