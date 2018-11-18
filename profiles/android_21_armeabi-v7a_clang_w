@@ -1,10 +1,10 @@
-standalone_toolchain=/tmp/android_21_arm_toolchain
+standalone_toolchain=C:\toolchains\android_21_arm_toolchain
 target_host=arm-linux-androideabi
 cc_compiler=clang
 cxx_compiler=clang++
 
 [settings]
-os_build=Linux
+os_build=Windows
 arch_build=x86_64
 
 compiler=clang
