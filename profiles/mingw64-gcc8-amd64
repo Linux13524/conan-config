@@ -1,6 +1,6 @@
 [build_requires]
-    mingw_installer/1.0@conan/stable
-    msys2_installer/latest@bincrafters/stable
+    OpenSSL*:mingw_installer/1.0@conan/stable
+    OpenSSL*:msys2_installer/latest@bincrafters/stable
 
 [settings]
     arch=x86_64
