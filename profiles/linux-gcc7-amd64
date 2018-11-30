@@ -10,5 +10,5 @@ build_type=Release
 [options]
 [build_requires]
 [env]
-CC=gcc7
-CXX=g++7
+CC=gcc-7
+CXX=g++-7
