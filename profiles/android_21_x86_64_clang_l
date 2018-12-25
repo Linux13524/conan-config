@@ -18,6 +18,8 @@ build_type=Release
 [env]
 CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain/sysroot
 PATH=[$standalone_toolchain/bin]
+SYSROOT=$standalone_toolchain/sysroot
+CROSS_PREFIX=$standalone_toolchain/bin/$target_host-
 CHOST=$target_host
 AR=$target_host-ar
 AS=$target_host-as
