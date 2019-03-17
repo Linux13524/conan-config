@@ -1,33 +1,14 @@
-standalone_toolchain=/tmp/android_21_x86_64_toolchain
-target_host=x86_64-linux-android
-cc_compiler=clang
-cxx_compiler=clang++
-
 [settings]
 os_build=Linux
 arch_build=x86_64
 
 compiler=clang
-compiler.version=5.0
+compiler.version=7.0
 compiler.libcxx=libc++
 os=Android
 os.api_level=21
 arch=x86_64
 build_type=Release
 
-[env]
-CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain/sysroot
-PATH=[$standalone_toolchain/bin]
-SYSROOT=$standalone_toolchain/sysroot
-CROSS_PREFIX=$standalone_toolchain/bin/$target_host-
-CHOST=$target_host
-AR=$target_host-ar
-AS=$target_host-as
-RANLIB=$target_host-ranlib
-CC=$target_host-$cc_compiler
-CXX=$target_host-$cxx_compiler
-LD=$target_host-ld
-STRIP=$target_host-strip
-CFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
-CXXFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
-LDFLAGS= -pie
+[build_requires]
+android-ndk/r18@theodelrieu/testing
