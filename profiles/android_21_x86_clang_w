@@ -3,7 +3,7 @@ os_build=Windows
 arch_build=x86_64
 
 compiler=clang
-compiler.version=7.0
+compiler.version=8
 compiler.libcxx=libc++
 os=Android
 os.api_level=21
@@ -11,4 +11,4 @@ arch=x86
 build_type=Release
 
 [build_requires]
-android-ndk/r18@theodelrieu/testing
+android_ndk_installer/r19b@bincrafters/stable
