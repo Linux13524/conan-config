@@ -1,4 +1,4 @@
-conan-linux13524 https://api.bintray.com/conan/linux13524/conan True
+conan-linux13524 https://linux13524.jfrog.io/artifactory/api/conan/default-conan True
 bincrafters http://api.bintray.com/conan/bincrafters/public-conan True
 conan-center https://conan.bintray.com True
 conan-community https://api.bintray.com/conan/conan-community/conan True
