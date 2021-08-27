@@ -11,4 +11,4 @@ arch=x86
 build_type=Release
 
 [build_requires]
-android_ndk_installer/r19b@bincrafters/stable
+android-ndk/r21e 
